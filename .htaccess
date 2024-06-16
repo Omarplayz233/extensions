@@ -1,0 +1,4 @@
+<FilesMatch "\.crx$">
+    Header set Content-Type "application/x-chrome-extension"
+    Header unset X-Content-Type-Options
+</FilesMatch>
